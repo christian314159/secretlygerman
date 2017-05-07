@@ -1,0 +1,125 @@
+[
+	{
+		"name"   : "Aqui Promenade",
+		"type"   : "touch application",
+		"images" : [
+			"assets/work/aqui_touch/aqui_touch_2.jpg",
+			"assets/work/aqui_touch/aqui_touch_1.jpg",
+			"assets/work/aqui_touch/aqui_touch_3.jpg",
+			"assets/work/aqui_touch/aqui_touch_5.jpg",
+			"assets/work/aqui_touch/aqui_touch_6.jpg"
+			"assets/work/aqui_touch/aqui_touch_7.jpg"
+			"assets/work/aqui_touch/aqui_touch_9.jpg"
+		],
+		"description": "<p>This single page touchscreen application was developed as a sales tool for the display suite of the Aqui Promenade development in Melbourne's Docklands. The app features several galleries, interactive maps as well as an apartment finder. The apartment finder allows to select any level and apartment and view its floorplan and additional data.<br>It runs on two 42-inch 1080p touch screens in the display suite.</p> <p> Published to the touchscreens as a <strong>Git</strong> repository using BlocksGlobal's <strong>digital signage service Screener</strong>, the application - written in <strong>Backbone Marionette</strong> - draws all information from a local <strong>JSON</strong> file.<br> <strong>GulpJS</strong> runs tasks to compile all files of the Marionette app (views, controllers, data, ...) into one minified file and also compiles <strong>SCSS</strong> to CSS. </p><p>This was completed whilst working at <strong>BlocksGlobal</strong>.</p>",
+		"specs" : [
+			{
+				"name" : "Date",
+				"value" : "2014"
+			},
+			{
+				"name" : "Client",
+				"value" : "MAB Corporation"
+			},
+			{
+				"name" : "Tags",
+				"value" : "SCSS, GulpJS, BackboneJS, Marionette, jQuery, JSON, Touch, SVG"
+			}
+		]
+	},
+	{
+		"name"   : "Aqui Promenade",
+		"type"   : "responsive website",
+		"url"    : "http://www.aquipromenade.com.au/",
+		"images" : [
+			"assets/work/aqui_site/aqui_site_2.jpg",
+			"assets/work/aqui_site/aqui_site_1.jpg",
+			"assets/work/aqui_site/aqui_site_3.jpg",
+			"assets/work/aqui_site/aqui_site_4.jpg",
+			"assets/work/aqui_site/aqui_site_5.jpg"
+		],
+		"description": "<p>This responsive website highlights the features and lifestyle of Aqui Promenade, a new development in Melbourne's Docklands.</p> <p>Built for the <strong>Publisher CMS</strong> whilst working at <strong>BlocksGlobal</strong>, all elements can easily be reordered and edited by the client. Though additional content comes up in lightboxes, it all exists under its own URL to improve <strong>SEO</strong>.</p> <p><strong>GulpJS</strong> is used to compile <strong>SCSS</strong> and minify JavaScript files. <strong>Backbone</strong> views help structuring the code.</p>",
+		"specs" : [
+			{
+				"name" : "Date",
+				"value" : "2014"
+			},
+			{
+				"name" : "CMS",
+				"value" : "Publisher"
+			},
+			{
+				"name" : "Client",
+				"value" : "MAB Corporation"
+			},
+			{
+				"name" : "Tags",
+				"value" : "SCSS, GulpJS, BackboneJS, jQuery, AJAX"
+			}
+		]
+	},
+	{
+		"name"   : "lifeAssist",
+		"type"   : "responsive website",
+		"url"    : "http://www.lifeassist.org.au/",
+		"images" : [
+			"assets/work/life_assist/life_assist_2.jpg",
+			"assets/work/life_assist/life_assist_4.jpg",
+			"assets/work/life_assist/life_assist_1.jpg",
+			"assets/work/life_assist/life_assist_3.jpg"
+		],
+		"description": "<p>Uniting Care lifeAssist assists vulnerable and disadvantaged people, as well as their carers and families. They offer a wide range of packages well catered for each specific situation.</p> <p>The site is fully responsive, consists of several flexible templates and was built for the <strong>Publisher CMS</strong> whilst working at <strong>BlocksGlobal</strong>.<br> As a main feature it includes a <a href='http://www.lifeassist.org.au/options-selector' target='_blank'>step-by-step mini-application</a> leading the user to the package offers for their individual needs. This app uses <strong>Backbone Marionette</strong> and a <strong>JSON</strong> file holding information on the relations between steps and packages. Dependencies within the app are managed with <strong>RequireJS</strong></p> <p> <strong>GulpJS</strong> is used to compile <strong>SCSS</strong> and concatenate JavaScript files and libraries. </p>",
+		"specs" : [
+			{
+				"name" : "Date",
+				"value" : "2014"
+			},
+			{
+				"name" : "Client",
+				"value" : "Uniting Care Australia"
+			},
+			{
+				"name" : "CMS",
+				"value" : "Publisher"
+			},
+			{
+				"name" : "Tags",
+				"value" : "SCSS, GulpJS, BackboneJS, Marionette, jQuery, RequireJS, JSON"
+			}
+		]
+	},
+	{
+		"name"   : "Bedshed",
+		"type"   : "touch application",
+		"url"    : "http://www.lifeassist.org.au/",
+		"images" : [
+			"assets/work/life_assist/life_assist_2.jpg",
+			"assets/work/life_assist/life_assist_4.jpg",
+			"assets/work/life_assist/life_assist_1.jpg",
+			"assets/work/life_assist/life_assist_3.jpg"
+		],
+		"description": "<p>This touchscreen solution helps Bedshed to enhance their customers' shopping experience. Customers can easily flick through a wide range of products, use a step-by-step guide to find the right mattress, save favorites and send them to their email and also hit a button to get assistance. The application runs on 42-inch, vertically mounted touchscreens with a 1080p resolution.</p> <p>Built into <strong>BlocksGlobal's Publisher CMS</strong> as multiple templates, the touch application will collect all parts at startup using <strong>AJAX</strong> calls.<br>The product search has two operating modes depending on whether the app is run in offline or online mode on the touchscreens. While online it will connect to the Publisher CMS database to find results. While offline it uses a local <strong>JSON</strong> file with product information. This file and other assets are updated regularly using <strong>Git</strong> while there is an internet connection.</p>",
+		"specs" : [
+			{
+				"name" : "Date",
+				"value" : "2012"
+			},
+			{
+				"name" : "Client",
+				"value" : "Bedshed"
+			},
+			{
+				"name" : "Awards",
+				"value" : "2013 Finalist Melbourne Design Awards"
+			},
+			{
+				"name" : "CMS",
+				"value" : "Publisher"
+			},
+			{
+				"name" : "Tags",
+				"value" : "jQuery, Touch, JSON, AJAX"
+			}
+		]
+	}
+]
